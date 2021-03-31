@@ -1,4 +1,4 @@
-package de.jeff_media.AngelChest.events;
+package de.jeff_media.angelchest2.events;
 
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
