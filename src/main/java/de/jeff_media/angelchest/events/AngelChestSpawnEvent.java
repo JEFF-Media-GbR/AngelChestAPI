@@ -1,6 +1,6 @@
 package de.jeff_media.angelchest.events;
 
-import de.jeff_media.angelchest.data.AngelChest;
+import de.jeff_media.angelchest.AngelChest;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
 
@@ -9,7 +9,7 @@ import org.bukkit.event.HandlerList;
  */
 public class AngelChestSpawnEvent extends Event {
 
-    private static HandlerList HANDLERS = new HandlerList();
+    private static final HandlerList HANDLERS = new HandlerList();
     private final AngelChest angelchest;
 
     public AngelChestSpawnEvent(AngelChest angelChest) {
@@ -18,6 +18,10 @@ public class AngelChestSpawnEvent extends Event {
 
     @Override
     public HandlerList getHandlers() {
+        return HANDLERS;
+    }
+
+    public static HandlerList getHandlerList() {
         return HANDLERS;
     }
 

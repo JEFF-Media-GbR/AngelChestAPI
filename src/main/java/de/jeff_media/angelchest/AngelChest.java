@@ -1,7 +1,7 @@
 package de.jeff_media.angelchest;
 
-import de.jeff_media.AngelChest.lib.org.jetbrains.annotations.NotNull;
-import de.jeff_media.AngelChest.lib.org.jetbrains.annotations.Nullable;
+import de.jeff_media.angelchest.lib.org.jetbrains.annotations.NotNull;
+import de.jeff_media.angelchest.lib.org.jetbrains.annotations.Nullable;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.World;
 import org.bukkit.block.Block;

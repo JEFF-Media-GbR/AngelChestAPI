@@ -21,7 +21,7 @@ public class AngelChestSpawnPrepareEvent extends Event implements Cancellable {
 
     private final PlayerDeathEvent playerDeathEvent;
 
-    private static HandlerList HANDLERS = new HandlerList();
+    private static final HandlerList HANDLERS = new HandlerList();
 
     /**
      * Gets the PlayerDeathEvent that caused this de.jeff_media.angelchest.AngelChest to be spawned
@@ -72,6 +72,10 @@ public class AngelChestSpawnPrepareEvent extends Event implements Cancellable {
 
     @Override
     public HandlerList getHandlers() {
+        return HANDLERS;
+    }
+
+    public static HandlerList getHandlerList() {
         return HANDLERS;
     }
 

@@ -79,6 +79,7 @@
             <groupId>de.jeff_media</groupId>
             <artifactId>AngelChest</artifactId>
             <version>3.6.0</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
