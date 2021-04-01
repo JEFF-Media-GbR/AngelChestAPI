@@ -1,6 +1,6 @@
 # API Usage
 ## Maven repository
-You can use maven to add ChestSort as a dependency to your Spigot-/Bukkit-Plugin:
+You can use maven to add AngelChest as a dependency to your Spigot-/Bukkit-Plugin:
 
 ```xml
 <repositories>
@@ -12,7 +12,7 @@ You can use maven to add ChestSort as a dependency to your Spigot-/Bukkit-Plugin
 <dependencies>
 	<dependency>
 		<groupId>de.jeff_media</groupId>
-		<artifactId>ChestSortAPI</artifactId>
+		<artifactId>AngelChestAPI</artifactId>
 		<version>1.2.0</version> <!-- The API version is independent of the AngelChest version -->
         	<scope>compile</scope>
 	</dependency>
@@ -57,5 +57,5 @@ if(angelChestPlugin==null) {
 Here is a complete example plugin that shows how to add and use the AngelChest API: [LINK](https://github.com/JEFF-Media-GbR/AngelChestAPIExample)
 
 ## Javadocs
-- [ChestSortAPI Javadocs](https://repo.jeff-media.de/javadocs/AngelChestAPI).
+- [AngelChestAPI Javadocs](https://repo.jeff-media.de/javadocs/AngelChestAPI).
 <!---- [ChestSortAPI source code](https://github.com/JEFF-Media-GbR/AngelChestAPI).-->
