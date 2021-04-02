@@ -140,4 +140,10 @@ public interface AngelChest {
      */
     @NotNull List<OfflinePlayer> getOpenedBy();
 
+    /**
+     * Gets the java.lang.System.currentTimeMillis() when this chest has been created
+     * @return
+     */
+    long getCreated();
+
 }
