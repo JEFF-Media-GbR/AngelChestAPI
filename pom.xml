@@ -87,7 +87,7 @@
     <distributionManagement>
         <repository>
             <id>jeff-ftp</id>
-            <url>ftps://ftp.jeff-media.de/maven2</url>
+            <url>https://hub.jeff-media.com/nexus/repository/jeff-media-public/</url>
         </repository>
     </distributionManagement>
 
