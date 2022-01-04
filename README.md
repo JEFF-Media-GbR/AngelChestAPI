@@ -5,7 +5,7 @@ Developer API for [AngelChest Plus](https://www.spigotmc.org/resources/%E2%AD%90
 Let me know on my Discord if you need any features that aren't available yet (link is at the bottom of this page)
 
 ## Maven repository
-You can use maven to add AngelChest as a dependency to your Spigot-/Bukkit-Plugin. Please note that the API version is independent from AngelChest's release version (except for the major version).
+You can use maven to add AngelChest as a dependency to your Spigot-/Bukkit-Plugin. Please note that the API version is independent from AngelChest's release version. Just always use the latest available version as mentioned here.
 
 ```xml
 <repositories>
@@ -18,7 +18,7 @@ You can use maven to add AngelChest as a dependency to your Spigot-/Bukkit-Plugi
 	<dependency>
 		<groupId>de.jeff_media</groupId>
 		<artifactId>AngelChestAPI</artifactId>
-		<version>4.0.0</version>
+		<version>5.0.0-SNAPSHOT</version>
         <scope>provided</scope>
 	</dependency>
 </dependencies>
