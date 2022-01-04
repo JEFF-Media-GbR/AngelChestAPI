@@ -29,10 +29,6 @@ Then you can access the API via the plugin manager:
 
 ```java
 AngelChestPlugin angelChestPlugin = (AngelChestPlugin) getServer().getPluginManager().getPlugin("AngelChest");
-if(angelChestPlugin==null) {
-	getLogger().severe("Error: AngelChest is not installed.");
-	return;
-}
 ```
 
 ## Example Plugin
