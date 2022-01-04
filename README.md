@@ -10,8 +10,8 @@ You can use maven to add AngelChest as a dependency to your Spigot-/Bukkit-Plugi
 ```xml
 <repositories>
 	<repository>
-		<id>jeff-media-repo</id>
-		<url>https://repo.jeff-media.de/maven2</url>
+		<id>jeff-media-public</id>
+		<url>https://hub.jeff-media.com/nexus/repository/jeff-media-public/</url>
 	</repository>
 </repositories>
 <dependencies>
@@ -19,33 +19,11 @@ You can use maven to add AngelChest as a dependency to your Spigot-/Bukkit-Plugi
 		<groupId>de.jeff_media</groupId>
 		<artifactId>AngelChestAPI</artifactId>
 		<version>4.0.0</version>
-        	<scope>compile</scope>
+        <scope>provided</scope>
 	</dependency>
 </dependencies>
 ```
-<!---
-If you use the `Sortable`class or the `ISortable` interface, you must also shade the ChestSortAPI into your plugin:
 
-```xml
-<build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-shade-plugin</artifactId>
-            <version>3.1.0</version>
-            <executions>
-                <execution>
-                    <phase>package</phase>
-                    <goals>
-                        <goal>shade</goal>
-                    </goals>
-                </execution>
-            </executions>
-        </plugin>
-    </plugins>
-</build>
-``` 
--->
 ## Accessing the API
 Then you can access the API via the plugin manager:
 

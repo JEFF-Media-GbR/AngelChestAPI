@@ -1,11 +1,11 @@
 package de.jeff_media.angelchest;
 
-import de.jeff_media.angelchest.lib.org.jetbrains.annotations.NotNull;
-import de.jeff_media.angelchest.lib.org.jetbrains.annotations.Nullable;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.World;
 import org.bukkit.block.Block;
 import org.bukkit.inventory.ItemStack;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
