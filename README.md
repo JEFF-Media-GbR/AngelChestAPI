@@ -40,7 +40,7 @@ if(angelChestPlugin==null) {
 Here is a complete example plugin that shows how to add and use the AngelChest API: [LINK](https://github.com/JEFF-Media-GbR/AngelChestAPIExample)
 
 ## Javadocs
-- [AngelChestAPI Javadocs](https://repo.jeff-media.de/javadocs/AngelChestAPI).
+- [AngelChestAPI Javadocs](https://hub.jeff-media.com/javadocs/angelchestapi/).
 <!---- [ChestSortAPI source code](https://github.com/JEFF-Media-GbR/AngelChestAPI).-->
 
 ## Discord
