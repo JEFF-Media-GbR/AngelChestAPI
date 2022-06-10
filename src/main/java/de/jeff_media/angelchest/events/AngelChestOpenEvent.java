@@ -1,5 +1,6 @@
 package de.jeff_media.angelchest.events;
 
+import com.allatori.annotations.DoNotRename;
 import de.jeff_media.angelchest.AngelChest;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
@@ -11,6 +12,7 @@ import org.jetbrains.annotations.NotNull;
  * Represents an event related to "opening" an AngelChest by either fast-looting it, opening its GUI or breaking the block itself.
  * It will NOT get called when the inventory of an AngelChest is opened in preview (read-only) mode.
  */
+@DoNotRename
 public class AngelChestOpenEvent extends Event implements Cancellable {
     private static final HandlerList HANDLERS = new HandlerList();
     private final AngelChest angelchest;
@@ -70,6 +72,7 @@ public class AngelChestOpenEvent extends Event implements Cancellable {
         return reason;
     }
 
+    @DoNotRename
     public enum Reason {
         /**
          * Represents a player opening the GUI of an AngelChest
@@ -80,7 +83,7 @@ public class AngelChestOpenEvent extends Event implements Cancellable {
          */
         FAST_LOOT,
         /**
-         * Represents a player breaking an AngelChest
+         * Represents a player breaking an AngelChest. If the event will be cancelled, the underlying BlockBreakEvent will be cancelled too.
          */
         BREAK
     }

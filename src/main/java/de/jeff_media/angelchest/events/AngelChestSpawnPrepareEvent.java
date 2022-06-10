@@ -1,5 +1,6 @@
 package de.jeff_media.angelchest.events;
 
+import com.allatori.annotations.DoNotRename;
 import org.bukkit.block.Block;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Cancellable;
@@ -11,6 +12,7 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 /**
  * Called before an AngelChest is being spawned
  */
+@DoNotRename
 public class AngelChestSpawnPrepareEvent extends Event implements Cancellable {
 
     private boolean isCancelled = false;

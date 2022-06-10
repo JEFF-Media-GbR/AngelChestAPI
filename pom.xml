@@ -8,7 +8,7 @@
     <artifactId>AngelChestAPI</artifactId>
     <name>AngelChestAPI</name>
     <description>AngelChest API for plugin developers</description>
-    <version>8.2.0-SNAPSHOT</version>
+    <version>9.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
     <inceptionYear>2021</inceptionYear>
     <url>https://github.com/JEFF-Media-GbR/AngelChestAPI</url>
@@ -88,6 +88,12 @@
             <version>3.6.0</version>
             <scope>provided</scope>
         </dependency>-->
+        <dependency>
+            <groupId>com.allatori</groupId>
+            <artifactId>allatori-annotations</artifactId>
+            <version>8.0</version>
+            <scope>provided</scope>
+        </dependency>
     </dependencies>
 
     <distributionManagement>

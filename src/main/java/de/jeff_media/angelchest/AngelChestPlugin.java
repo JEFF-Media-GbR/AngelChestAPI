@@ -1,5 +1,6 @@
 package de.jeff_media.angelchest;
 
+import com.allatori.annotations.DoNotRename;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.block.Block;
 import org.jetbrains.annotations.NotNull;
@@ -11,6 +12,7 @@ import java.util.Set;
 /**
  * Represents the main instance of the AngelChest plugin
  */
+@DoNotRename
 public interface AngelChestPlugin {
 
     /**

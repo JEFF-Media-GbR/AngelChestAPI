@@ -7,7 +7,7 @@ Let me know on my Discord if you need any features that aren't available yet (li
 ## Maven repository
 You can use maven to add AngelChest as a dependency to your Spigot-/Bukkit-Plugin. Please note that the API version
 is always the same version as the latest AngelChest release required to use the latest API features. So for example if
-you use the API version 8.2.0-SNAPSHOT, then you need AngelChest 8.2.0 or later.
+you use the API version 9.0.0-SNAPSHOT, then you need AngelChest 9.0.0 or later.
 The API version only gets updated if there are new features.
 
 ```xml
@@ -21,7 +21,7 @@ The API version only gets updated if there are new features.
 	<dependency>
 		<groupId>de.jeff_media</groupId>
 		<artifactId>AngelChestAPI</artifactId>
-		<version>8.2.0-SNAPSHOT</version>
+		<version>9.0.0-SNAPSHOT</version>
         <scope>provided</scope>
 	</dependency>
 </dependencies>

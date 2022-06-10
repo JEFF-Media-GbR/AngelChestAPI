@@ -1,5 +1,6 @@
 package de.jeff_media.angelchest.events;
 
+import com.allatori.annotations.DoNotRename;
 import de.jeff_media.angelchest.AngelChest;
 import org.bukkit.event.Event;
 import org.bukkit.event.HandlerList;
@@ -7,6 +8,7 @@ import org.bukkit.event.HandlerList;
 /**
  * Called after an AngelChest has been spawned
  */
+@DoNotRename
 public class AngelChestSpawnEvent extends Event {
 
     private static final HandlerList HANDLERS = new HandlerList();
