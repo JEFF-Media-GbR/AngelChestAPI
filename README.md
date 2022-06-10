@@ -27,6 +27,8 @@ The API version only gets updated if there are new features.
 </dependencies>
 ```
 
+It is **not allowed** to shade the API.
+
 ## Accessing the API
 Then you can access the API via the plugin manager:
 
