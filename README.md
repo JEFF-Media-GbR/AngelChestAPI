@@ -12,18 +12,18 @@ The API version only gets updated if there are new features.
 
 ```xml
 <repositories>
-	<repository>
-		<id>jeff-media-public</id>
-		<url>https://hub.jeff-media.com/nexus/repository/jeff-media-public/</url>
-	</repository>
+    <repository>
+        <id>jeff-media-public</id>
+        <url>https://hub.jeff-media.com/nexus/repository/jeff-media-public/</url>
+    </repository>
 </repositories>
 <dependencies>
-	<dependency>
-		<groupId>de.jeff_media</groupId>
-		<artifactId>AngelChestAPI</artifactId>
-		<version>9.0.0-SNAPSHOT</version>
+    <dependency>
+        <groupId>de.jeff_media</groupId>
+        <artifactId>AngelChestAPI</artifactId>
+        <version>9.0.0-SNAPSHOT</version>
         <scope>provided</scope>
-	</dependency>
+    </dependency>
 </dependencies>
 ```
 
