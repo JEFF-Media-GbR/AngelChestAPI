@@ -77,14 +77,17 @@ public class AngelChestOpenEvent extends Event implements Cancellable {
         /**
          * Represents a player opening the GUI of an AngelChest
          */
+        @DoNotRename
         OPEN_GUI,
         /**
          * Represents a player fast-looting an AngelChest
          */
+        @DoNotRename
         FAST_LOOT,
         /**
          * Represents a player breaking an AngelChest. If the event will be cancelled, the underlying BlockBreakEvent will be cancelled too.
          */
+        @DoNotRename
         BREAK
     }
 }
