@@ -8,7 +8,7 @@
     <artifactId>AngelChestAPI</artifactId>
     <name>AngelChestAPI</name>
     <description>AngelChest API for plugin developers</description>
-    <version>14.0.0-SNAPSHOT</version>
+    <version>13.6.0</version>
     <packaging>jar</packaging>
     <inceptionYear>2021</inceptionYear>
     <url>https://github.com/JEFF-Media-GbR/AngelChestAPI</url>
