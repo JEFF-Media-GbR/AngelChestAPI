@@ -14,14 +14,14 @@ The API version only gets updated if there are new features.
 <repositories>
     <repository>
         <id>jeff-media-public</id>
-        <url>https://hub.jeff-media.com/nexus/repository/jeff-media-public/</url>
+        <url>https://repo.jeff-media.com/public/</url>
     </repository>
 </repositories>
 <dependencies>
     <dependency>
         <groupId>de.jeff_media</groupId>
         <artifactId>AngelChestAPI</artifactId>
-        <version>9.0.0-SNAPSHOT</version>
+        <version>14.0.0-SNAPSHOT</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>

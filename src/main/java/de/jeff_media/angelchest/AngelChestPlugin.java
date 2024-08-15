@@ -8,6 +8,8 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.LinkedHashSet;
 import java.util.Set;
+import java.util.UUID;
+import java.util.function.Consumer;
 
 /**
  * Represents the main instance of the AngelChest plugin
@@ -34,5 +36,7 @@ public interface AngelChestPlugin {
      * @return The AngelChest, or null
      */
     @Nullable AngelChest getAngelChestAtBlock(Block block);
+
+    @NotNull AngelChest createAngelChest(AngelChestBuilder angelChestBuilder);
 
 }
