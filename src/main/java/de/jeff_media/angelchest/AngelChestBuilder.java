@@ -1,5 +1,6 @@
 package de.jeff_media.angelchest;
 
+import com.allatori.annotations.DoNotRename;
 import org.bukkit.block.Block;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.bukkit.inventory.ItemStack;
@@ -9,6 +10,7 @@ import javax.swing.text.html.parser.Entity;
 import java.util.UUID;
 import java.util.function.Consumer;
 
+@DoNotRename
 public class AngelChestBuilder {
     private ItemStack[] armorInv = new ItemStack[4];
     private ItemStack[] extraInv = new ItemStack[1];

@@ -1,11 +1,13 @@
 package de.jeff_media.angelchest;
 
+import com.allatori.annotations.DoNotRename;
 import lombok.Getter;
 import org.bukkit.event.entity.EntityDamageEvent;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 @Getter
+@DoNotRename
 public class DeathReason {
 
     private final EntityDamageEvent.DamageCause damageCause;

@@ -8,7 +8,7 @@
     <artifactId>AngelChestAPI</artifactId>
     <name>AngelChestAPI</name>
     <description>AngelChest API for plugin developers</description>
-    <version>13.6.0</version>
+    <version>13.6.1</version>
     <packaging>jar</packaging>
     <inceptionYear>2021</inceptionYear>
     <url>https://github.com/JEFF-Media-GbR/AngelChestAPI</url>
@@ -66,14 +66,6 @@
                 </executions>
             </plugin>
         </plugins>
-
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.wagon</groupId>
-                <artifactId>wagon-ftp</artifactId>
-                <version>3.4.1</version>
-            </extension>
-        </extensions>
 
     </build>
 

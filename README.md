@@ -21,7 +21,7 @@ The API version only gets updated if there are new features.
     <dependency>
         <groupId>de.jeff_media</groupId>
         <artifactId>AngelChestAPI</artifactId>
-        <version>13.6.0</version>
+        <version>13.6.1</version>
         <scope>provided</scope>
     </dependency>
 </dependencies>
